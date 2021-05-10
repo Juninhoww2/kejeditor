@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+:root {
+  /* #1C1714: launchbase */
+  --dark: 28, 23, 20; /* omni */
+  --dark-1: rgb(var(--dark));
+  --dark-2: rgba(var(--dark), .8);
+  --dark-3: rgba(var(--dark), .6);
+  --dark-4: rgba(var(--dark), .4);
+  --dark-4: rgba(var(--dark), .2);
+
+  /* 
+    PRIMARY
+    #FD951F: 253, 149, 31: launchbase
+    #67e480: 103, 228, 128: omni
+  */
+  --primary: 103, 228, 128; 
+  --primary-1: rgb(var(--primary));
+  --primary-2: rgba(var(--primary), 0.8);
+  --primary-3: rgba(var(--primary), 0.6);
+  --primary-4: rgba(var(--primary), 0.4);
+  --primary-5: rgba(var(--primary), 0.2);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
